@@ -218,4 +218,5 @@ int commit_create(const char *message, ObjectID *commit_id_out) {
     hash_to_hex(&commit_id, hex);
     printf("[%.7s] %s\n", hex, message);
     return 0;
+
 }
